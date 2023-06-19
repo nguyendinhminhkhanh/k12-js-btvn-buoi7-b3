@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.box_image {
+    width: 20%;
+    object-fit: cover;
+}
+
+.image {
+    position: relative;
+    height: 400px;
+}
+
+img {
+    width: 100%;
+    position: absolute;
+}
+
+.sale {
+    position: absolute;
+    bottom: 10px;
+    background: #f28902;
+    color: white;
+    padding: 0 5px;
+    border-radius: 3px;
+}
+.title{
+    padding: 0 5px;
+}
+.price{
+    padding: 0 5px;
+    color: red;
+    font-weight: bold;
+}
